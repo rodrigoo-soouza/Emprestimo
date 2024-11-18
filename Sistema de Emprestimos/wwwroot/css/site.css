@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient(135deg, #d3d3d3, #a9a9a9); /* Gradiente de cinza claro para cinza médio */
+    color: #333333; /* Cor do texto */
+}
+
+/* Adicione esta classe ao site.css */
+.bg-gradient-gray {
+    background: linear-gradient(to bottom right, #c0c0c0, #808080); /* Gradiente de cinza */
+    min-height: 100vh; /* Garante que o fundo cubra toda a altura */
+    background-attachment: fixed; /* Fundo fixo */
+}
